@@ -24,7 +24,7 @@ services:
     volumes:
       - local_db:${PGDATA}
     ports:
-      - "5432:5432"
+      - "5433:5432"
 
 volumes:
   local_db:
